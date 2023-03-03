@@ -1,0 +1,9 @@
+<templateSet group="Vue">
+    <template name="vue3"
+              value="&lt;template&gt;&#10;    &lt;div&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;        &lt;/template&gt;&#10;&#10;&lt;script setup lang='ts' name=$componentName$&gt;&#10;&#10;&lt;/script&gt;&#10;&#10;"
+              description="Create a Vue3 component with setup and TypeScript" toReformat="true"
+              toShortenFQNames="true">
+        <variable name="componentName" expression="" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true"/>
+        <context/>
+    </template>
+</templateSet>
